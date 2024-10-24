@@ -1,0 +1,182 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: url('./assets/image_01.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 68, 171);
+    margin: 0;
+    padding: 0 30px;
+    height: 100%;
+}
+
+.main {
+    padding: 20px 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.header li {
+    margin-left: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.header li:hover {
+    color: rgb(168, 19, 156);
+}
+
+.header input {
+    background: #bb5bd3;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 50px;
+    outline: none;
+    color: rgb(241, 63, 167);
+    padding-left: 5px;
+}
+
+.body-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15% 0;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#description {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.55rem;
+    font-weight: bolder;
+}
+
+.info-section {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.contact {
+    background-color: blueviolet;
+    color: white;
+}
+
+.contact:hover {
+    background-color: white;
+    color: rgb(247, 42, 247);
+}
+
+/* Custom styles */
+
+.menu-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+.home-button {
+    background-color: white;
+    padding: 0.85rem 3rem;
+    color: rgb(235, 26, 235);
+    border: none;
+    border-radius: 25px;
+}
+
+.search-section > .search-input {
+    background-color: white;
+    width: 350px;
+    padding: 1.45rem 1rem;
+    border: none;
+    border-radius: 25px;
+    margin-left: 1rem;
+}
+
+.booking-button {
+    background-color: white;
+    padding: 0.85rem 3rem;
+    color: rgb(235, 26, 235);
+    font-size: 2rem;
+    font-weight: bolder;
+    border: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    opacity: 80%;
+}
+
+.booking-button:hover {
+    background-color: rgb(235, 26, 235);
+    padding: 0.85rem 3rem;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.dropbtn {
+    color: rgb(247, 42, 247);
+    padding: 4px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
